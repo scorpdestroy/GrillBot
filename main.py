@@ -1,4 +1,4 @@
-from telethon import TelegramClient
+from telethon import TelegramClient, events
 import pandas as pd
 
 api_id = 25777914

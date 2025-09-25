@@ -9,6 +9,8 @@ client = TelegramClient("my", api_id, api_hash)
 SOURCE_CHANNEL = "aerogrill_recepti"
 TARGET_CHANNEL = "CookingWithGrill"
 
+print("Я родился!")
+
 def del_bad_from_str(msg: str) -> str:
     """
     Удаляет содержимое в скобках [ ] и ( ), 
